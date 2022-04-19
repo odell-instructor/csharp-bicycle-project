@@ -7,6 +7,7 @@ internal interface IBicycle
     decimal Price { get; }
     string Model { get; }
     string Style { get; }
+    string SerialNumber { get; set; }
     int StartNumber { get; }
 
     void Paint(BikeColor color);

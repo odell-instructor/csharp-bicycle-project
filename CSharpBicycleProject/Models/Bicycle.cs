@@ -3,6 +3,7 @@
 internal abstract class Bicycle : IBicycle
 {
     public IWheelInterface Wheel { get; }
+    public string SerialNumber { get; set; }
     public abstract BikeColor FrameColor { get; set; }
     public abstract decimal Price { get; }
     public abstract string Model { get; }
